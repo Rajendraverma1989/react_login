@@ -1,0 +1,60 @@
+
+.logContainer {
+    width: 80%;
+    margin: 0 auto;
+    height: 100vh;
+    padding-top: 50px;
+}
+
+.logContainer h2{
+    font-weight: 300;
+    text-align: center;
+    font-size: 35px;
+}
+.logContainer input{
+    width: 50%;
+    font-size: 17px;
+    margin-top: 10px;
+    padding: 12px 10px;
+    font-weight: 300;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.logContainer button{
+    background-color: #03a9f4;
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: 300;
+    color: #fff;
+}
+
+#title {
+    text-align: center;
+    font-family: arial, sans-serif;
+}
+
+#students {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    width: 100%;
+}
+
+#students td, #students th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#students tr:nth-child(even){background-color: #f2f2f2;}
+
+#students tr:hover {background-color: #ddd;}
+
+#students th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+}
